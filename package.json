@@ -1,0 +1,22 @@
+{
+  "name": "pathfinding_algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/board.js -o /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/bundle.js",
+    "predeploy": "echo \"No build step required\"",
+    "deploy": "gh-pages -d public"
+  },
+  "homepage": "https://AgastyaKro.github.io/Pathfinding-Visualizer/",
+  "author": "Agastya Krothapalli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
